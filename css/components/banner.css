@@ -1,0 +1,50 @@
+/* Your banner CSS file */
+
+.banner {
+  background-image: linear-gradient(rgb(2 2 202 / 53%), rgb(255 255 0 / 35%)), url(https://source.unsplash.com/PhYq704ffdA/1600x900);
+}
+
+.navbar {
+  /* background-color: rgba(255, 253, 253, 0.756); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.navbar li {
+  display: inline;
+  list-style: none;
+  padding: 0;
+}
+.navbar a {
+  margin: 0 12px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.hero {
+  color: white;
+  height: 500px;
+  padding: 0 60px;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.hero a {
+  display: flex;
+}
+
+.hero h2 {
+  font-size: 30px;
+}

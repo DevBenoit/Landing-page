@@ -1,0 +1,14 @@
+.ref-logo {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-ref {
+  height: 50px;
+}
+
+.reference {
+  padding: 20px 30px;
+}
